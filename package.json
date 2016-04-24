@@ -1,0 +1,28 @@
+{
+  "name": "webpackngtst",
+  "version": "1.0.0",
+  "description": "jsut  a test",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack && webpack-dev-server  --content-base app --hot"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/josersleal/ngwebpack_test.git"
+  },
+  "author": "jose leal",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/josersleal/ngwebpack_test/issues"
+  },
+  "homepage": "https://github.com/josersleal/ngwebpack_test#readme",
+  "devDependencies": {
+    "css-loader": "^0.23.1",
+    "sass-loader": "^3.2.0",
+    "style-loader": "^0.13.1",
+    "webpack-dev-server": "^1.14.1"
+  },
+  "dependencies": {
+    "angular": "^1.5.5"
+  }
+}
